@@ -7,14 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student at the Beijing Institute of Technology (BIT), where I serve as a member in the Advanced Energy Materials and Intelligent Battery Innovation Team under the mentorship of Prof. Nan Chen from the BIT School of Materials Science and Engineering.
+I am a PhD student at the Beijing Institute of Technology (BIT), where I serve as a member in the Advanced Energy Materials and Intelligent Battery Innovation Team under the mentorship of Prof. Nan Chen from the BIT School of Materials Science and Engineering. My research focuses on machine learning and high-voltage electrolytes.
 
-Prof. Chen's research group (official profile: https://mse.bit.edu.cn/szdw/jgml/nyyhjclxg/821e424420484a409c4721ca7512e8ad.htm) specializes in cutting-edge energy material development. My research focuses on machine learning and high-voltage electrolytes.
+Prof. Chen's research group specializes in cutting-edge energy material development, official profile: https://mse.bit.edu.cn/szdw/jgml/nyyhjclxg/821e424420484a409c4721ca7512e8ad.htm. 
 
 Contact Information
-Email: 632275830@qq.com
-GitHub Portfolio: https://github.com/Dravencent
-Team Website: https://bit-battery.com.cn/index.php
+* Email: 632275830@qq.com
+* GitHub Portfolio: https://github.com/Dravencent
+* Team Website: https://bit-battery.com.cn/index.php
 
 A data-driven personal website
 ======
