@@ -55,8 +55,9 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+(1) Zhan Yu; Zhai Pengfei; Song Tinglu; Yang Wen*; Li Yuchuan* ; Enhanced performance in lithium metal batteries: A dual-layer solid electrolyte interphase strategy via perfluoropolyether derivative additive, Chemical Engineering Journal, 2024, 491: 151974.
+(2) Ge, Zhen*; Liu, Xiaoli; Zou, Xiaobin; Zhan, Yu; Luo, Yunjun* ; Preparation and properties of a novel green solid polymer electrolyte for all-solid-state lithium battery, Journal of Applied Polymer Science, 2021, 138(37): 50945.
+(3) Liu, Xiaoli; Zhan, Yu; Zhao, Chenying; Su, Yuefeng; Ge, Zhen*; Luo, Yunjun* ; A novel polymer electrolyte matrix incorporating ionic liquid into waterborne polyurethane for lithium-ion battery, Polymers, 2020, 12(7): 1513.
+
   
 
