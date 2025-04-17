@@ -28,20 +28,21 @@ Advisor: Prof. Zhen Ge
 
 Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Machine Learning-Driven Design of High-Voltage Electrolytes for Lithium-Ion Batteries (Sep 2024–Present)
+  * Developing predictive models using transformer algorithms for electrolyte formulation screening
+  * Establishing molecular descriptor databases for fluorinated solvent systems
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Ultrathin Fluorinated Polymer Solid-State Electrolyte Separators (Sep 2022–Aug 2024)
+  * Developed 15-μm-thick perfluorinated separators 
+  * Solved the insolubility problem of perfluoropolyether by RAFT polymerization
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Molecular Engineering of High-Energy All-Nitrogen Energetic Materials (Sep 2021–Aug 2022)
+  * Synthesized solid-state perfluoropolyethers through direct polymerization of hexafluoropropylene oxide using trimethyl(trifluoromethyl)silane initiator
+  * Analyzed crystal structures with single-crystal X-ray diffraction
+
+* Energetic Thermoplastic Polyurethane-Coated Boron Composites (Sep 2019–Aug 2021)
+  * Established boron powder surface pretreatment protocol prior to polymer coating modification
+  * SEM, BET, and XPS proved that the elastomer successfully modified the boron powder
   
 Skills
 ======
@@ -55,9 +56,9 @@ Skills
 
 Publications
 ======
-(1) Zhan Yu; Zhai Pengfei; Song Tinglu; Yang Wen*; Li Yuchuan* ; Enhanced performance in lithium metal batteries: A dual-layer solid electrolyte interphase strategy via perfluoropolyether derivative additive, Chemical Engineering Journal, 2024, 491: 151974.
-(2) Ge, Zhen*; Liu, Xiaoli; Zou, Xiaobin; Zhan, Yu; Luo, Yunjun* ; Preparation and properties of a novel green solid polymer electrolyte for all-solid-state lithium battery, Journal of Applied Polymer Science, 2021, 138(37): 50945.
-(3) Liu, Xiaoli; Zhan, Yu; Zhao, Chenying; Su, Yuefeng; Ge, Zhen*; Luo, Yunjun* ; A novel polymer electrolyte matrix incorporating ionic liquid into waterborne polyurethane for lithium-ion battery, Polymers, 2020, 12(7): 1513.
+* (1) Zhan Yu; Zhai Pengfei; Song Tinglu; Yang Wen*; Li Yuchuan* ; Enhanced performance in lithium metal batteries: A dual-layer solid electrolyte interphase strategy via perfluoropolyether derivative additive, Chemical Engineering Journal, 2024, 491: 151974.
+* (2) Ge, Zhen*; Liu, Xiaoli; Zou, Xiaobin; Zhan, Yu; Luo, Yunjun* ; Preparation and properties of a novel green solid polymer electrolyte for all-solid-state lithium battery, Journal of Applied Polymer Science, 2021, 138(37): 50945.
+* (3) Liu, Xiaoli; Zhan, Yu; Zhao, Chenying; Su, Yuefeng; Ge, Zhen*; Luo, Yunjun* ; A novel polymer electrolyte matrix incorporating ionic liquid into waterborne polyurethane for lithium-ion battery, Polymers, 2020, 12(7): 1513.
 
   
 
