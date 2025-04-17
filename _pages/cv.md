@@ -11,11 +11,22 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Materials Science and Engineering (2024–Present)
+Beijing Institute of Technology
+Research Focus: Machine learning applications in high-voltage electrolyte design for lithium-ion batteries
+Advisor: Prof. Nan Chen
 
-Work experience
+* M.S. in Materials Science and Engineering (2021–2024)
+Beijing Institute of Technology
+Research Focus: Synthesis methodologies of perfluoropolyethers
+Advisor: Prof. Yuchuan Li
+
+* B.Eng. in Polymer Materials and Engineering (2017–2021)
+Beijing Institute of Technology (BIT)
+Research Focus: Modification techniques for propellant materials
+Advisor: Prof. Zhen Ge
+
+Research Experience
 ======
 * Spring 2024: Academic Pages Collaborator
   * GitHub University
@@ -34,12 +45,13 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* ChemDraw
+* Origin
+* Python
+* Gaussian
+* CP2K
+* Gromacs
+* DPMD
 
 Publications
 ======
@@ -47,18 +59,4 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
