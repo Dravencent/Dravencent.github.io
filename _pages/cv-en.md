@@ -5,6 +5,7 @@ permalink: /cv/
 counterpart: /zh/cv/
 title: Academic CV
 description: Education, research interests, skills, publications, and verified honors.
+show_description: false
 page_type: cv
 body_class: academic-site cv-page
 ---

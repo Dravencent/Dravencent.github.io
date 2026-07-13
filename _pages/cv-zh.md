@@ -5,6 +5,7 @@ permalink: /zh/cv/
 counterpart: /cv/
 title: 学术简历
 description: 教育经历、研究方向、专业技能、论文发表与经核验的荣誉记录。
+show_description: false
 page_type: cv
 body_class: academic-site cv-page
 ---

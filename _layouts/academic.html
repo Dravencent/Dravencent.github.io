@@ -5,7 +5,9 @@ layout: default
   <header class="page-header">
     <p class="eyebrow">{% if page.lang == 'zh' %}湛煜 · 学术主页{% else %}Yu Zhan · Academic Profile{% endif %}</p>
     <h1>{{ page.title }}</h1>
+    {% unless page.show_description == false %}
     <p>{{ page.description }}</p>
+    {% endunless %}
   </header>
   {{ content }}
 </main>

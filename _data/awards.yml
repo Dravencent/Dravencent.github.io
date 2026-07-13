@@ -51,9 +51,9 @@
     en: "Grand Prize"
     zh: "特等奖"
   role:
-    en: "Co-recipient"
-    zh: "共同获奖人"
-  english_descriptor: "National Finals Grand Prize, Graduate Division; Co-recipient; June 2025."
+    en: "Project Lead"
+    zh: "项目负责人"
+  english_descriptor: "National Finals Grand Prize, Graduate Division; Project Lead; June 2025."
   project_title: "自选主题的大模型Agent创新应用设计"
 - id: "china-international-innovation-2024"
   date: "2024-09"
