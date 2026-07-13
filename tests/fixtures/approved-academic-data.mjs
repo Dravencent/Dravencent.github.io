@@ -269,8 +269,8 @@ export const APPROVED_ACADEMIC_DATA = deepFreeze({
       year: 2025,
       official_title_zh: "首届全国人工智能应用创新大赛通用赛道全国赛研究生组特等奖",
       award_level: bilingual("Grand Prize", "特等奖"),
-      role: bilingual("Co-recipient", "共同获奖人"),
-      english_descriptor: "National Finals Grand Prize, Graduate Division; Co-recipient; June 2025.",
+      role: bilingual("Project Lead", "项目负责人"),
+      english_descriptor: "National Finals Grand Prize, Graduate Division; Project Lead; June 2025.",
       project_title: "自选主题的大模型Agent创新应用设计",
     },
     {

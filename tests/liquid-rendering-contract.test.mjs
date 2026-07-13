@@ -15,6 +15,10 @@ test("semantic bilingual shell is local, accessible, and no-JavaScript", async (
   assert.match(layout, /page\.body_class/u);
   assert.equal((home.match(/<main\b/gu) || []).length, 1);
   assert.equal((academic.match(/<main\b/gu) || []).length, 1);
+  assert.match(
+    academic,
+    /\{%\s*unless\s+page\.show_description\s*==\s*false\s*%\}\s*<p>\{\{\s*page\.description\s*\}\}<\/p>\s*\{%\s*endunless\s*%\}/u,
+  );
   assert.match(masthead, /<details/u);
   assert.match(masthead, /aria-current/u);
   assert.match(language, /page\.counterpart/u);
