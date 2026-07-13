@@ -1,0 +1,5 @@
+{% assign profile = site.data.profile %}
+<dl class="academic-links">
+  <div><dt>{% if include.lang == 'zh' %}导师{% else %}Supervisor{% endif %}</dt><dd><a href="{{ profile.supervisor.url }}">{{ profile.supervisor.name[include.lang] }}</a></dd></div>
+  <div><dt>{% if include.lang == 'zh' %}团队{% else %}Research team{% endif %}</dt><dd><a href="{{ profile.team.url }}">{{ profile.team.name[include.lang] }}</a></dd></div>
+</dl>

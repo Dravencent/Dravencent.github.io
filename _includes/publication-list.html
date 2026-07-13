@@ -1,0 +1,12 @@
+<ol class="publication-list">
+  {% for publication in site.data.publications %}
+    {% if include.selected_only != true or publication.selected == true %}
+      <li class="publication-entry" data-publication-id="{{ publication.id }}">
+        <p class="publication-title">{{ publication.title }}</p>
+        <p class="publication-authors">{% include author-list.html authors=publication.authors %}</p>
+        <p class="publication-venue"><em>{{ publication.journal }}</em>{% if publication.volume %} <strong>{{ publication.volume }}</strong>{% endif %}{% if publication.issue %}, no. {{ publication.issue }}{% endif %} ({{ publication.year }}){% if publication.pages %}: {{ publication.pages }}{% elsif publication.article_number %}: {{ publication.article_number }}{% endif %}.</p>
+        <p class="publication-links"><a href="https://doi.org/{{ publication.doi }}">DOI: {{ publication.doi }}</a></p>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ol>

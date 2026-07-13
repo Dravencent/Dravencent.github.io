@@ -1,0 +1,6 @@
+{% assign profile = site.data.profile %}
+<div class="identity-summary">
+  <p class="identity-name">{{ profile.name[include.lang] }}</p>
+  <p>{{ profile.role[include.lang] }}</p>
+  <p>{{ profile.institution[include.lang] }}</p>
+</div>

@@ -1,0 +1,6 @@
+{% assign profile = site.data.profile %}
+<ul class="profile-links" aria-label="{% if include.lang == 'zh' %}联系方式与学术主页{% else %}Contact and academic profiles{% endif %}">
+  <li><a href="mailto:{{ profile.contact.email }}">Email</a></li>
+  <li><a href="{{ profile.links.github }}">GitHub</a></li>
+  <li><a href="{{ profile.links.orcid }}">ORCID</a></li>
+</ul>

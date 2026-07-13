@@ -1,0 +1,15 @@
+<ol class="award-list">
+  {% for award in site.data.awards %}
+    <li class="award-entry" data-award-id="{{ award.id }}">
+      <h3 lang="zh-Hans">{{ award.official_title_zh }}</h3>
+      {% if include.lang == 'zh' %}
+        <p>{{ award.award_level.zh }} · {{ award.role.zh }} · {{ award.date }}</p>
+      {% else %}
+        <p>{{ award.english_descriptor }}</p>
+      {% endif %}
+      {% if award.project_title %}
+        <p class="award-project"><span>{% if include.lang == 'zh' %}项目：{% else %}Project: {% endif %}</span><span lang="zh-Hans">{{ award.project_title }}</span></p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ol>

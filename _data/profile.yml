@@ -1,0 +1,109 @@
+name:
+  en: "Yu Zhan"
+  zh: "湛煜"
+headline:
+  en: "Intelligent Design of Lithium-Battery Electrolytes"
+  zh: "锂电池电解液的智能设计"
+role:
+  en: "Ph.D. Student in Materials Science and Engineering"
+  zh: "材料科学与工程专业博士研究生"
+institution:
+  en: "Beijing Institute of Technology"
+  zh: "北京理工大学"
+biography:
+  en: >-
+    Yu Zhan is a Ph.D. student in Materials Science and Engineering at Beijing Institute of Technology and a member of the Advanced Energy Materials and Intelligent Battery Innovation Team under the supervision of Associate Professor Nan Chen. His research focuses on the intelligent design of lithium-battery electrolytes by integrating machine learning, computational methods, and electrochemical analysis, with particular interests in high-voltage stability, novel lithium salts, interfacial chemistry, and ion transport.
+  zh: >-
+    湛煜现为北京理工大学材料科学与工程专业博士研究生，是先进能源材料及智能电池创新团队成员，在陈楠副教授指导下开展研究。他的研究聚焦锂电池电解液的智能设计，结合机器学习、计算方法与电化学分析，重点关注高电压稳定性、新型锂盐、电解液界面化学和离子输运。
+contact:
+  email: "3120245693@bit.edu.cn"
+links:
+  github: "https://github.com/Dravencent"
+  orcid: "https://orcid.org/0009-0007-9163-9385"
+supervisor:
+  name:
+    en: "Associate Professor Nan Chen"
+    zh: "陈楠副教授"
+  url: "https://mse.bit.edu.cn/szdw/jgml/nyyhjclxg/821e424420484a409c4721ca7512e8ad.htm"
+team:
+  name:
+    en: "Advanced Energy Materials and Intelligent Battery Innovation Team"
+    zh: "先进能源材料及智能电池创新团队"
+  url: "https://bit-battery.com.cn/index.php"
+education:
+  - id: "bit-phd-materials"
+    degree:
+      en: "Ph.D. in Materials Science and Engineering"
+      zh: "材料科学与工程博士"
+    institution:
+      en: "Beijing Institute of Technology"
+      zh: "北京理工大学"
+    start_date: "2024-09"
+    end_date: "present"
+  - id: "bit-ms-materials"
+    degree:
+      en: "M.S. in Materials Science and Engineering"
+      zh: "材料科学与工程硕士"
+    institution:
+      en: "Beijing Institute of Technology"
+      zh: "北京理工大学"
+    start_date: "2021-09"
+    end_date: "2024-06"
+  - id: "bit-beng-polymer-materials"
+    degree:
+      en: "B.Eng. in Polymer Materials and Engineering"
+      zh: "高分子材料与工程学士"
+    institution:
+      en: "Beijing Institute of Technology"
+      zh: "北京理工大学"
+    start_date: "2017-09"
+    end_date: "2021-06"
+skills:
+  - "Python"
+  - "Gaussian"
+  - "ORCA"
+  - "CP2K"
+  - "GROMACS"
+research_directions:
+  - id: "data-driven-electrolyte-screening"
+    title:
+      en: "Data-Driven Electrolyte Screening"
+      zh: "数据驱动的电解液筛选"
+    description:
+      en: "Machine learning, molecular descriptors, and candidate-system screening."
+      zh: "利用机器学习、分子描述符和数据驱动方法开展候选电解液体系的筛选与优先级排序。"
+    status:
+      en: "active"
+      zh: "博士阶段研究方向"
+    related_publication_ids:
+      - "zhan-2026-ai-high-voltage-electrolytes"
+      - "zhai-2026-coulometric-screening"
+  - id: "novel-lithium-salt-design"
+    title:
+      en: "Novel Lithium Salt Design"
+      zh: "新型锂盐设计"
+    description:
+      en: >-
+        An ongoing doctoral research direction involving molecular design and computational evaluation of novel lithium salts, with attention to solvation behavior, electrochemical stability, and interfacial compatibility. No unpublished performance result is stated.
+      zh: "面向锂电池电解液开展新型锂盐的分子设计与计算评估，关注其溶剂化行为、电化学稳定性及界面相容性；在成果公开前不陈述未经发表的性能结论。"
+    status:
+      en: "ongoing"
+      zh: "持续开展"
+    related_publication_ids: []
+  - id: "electrolyte-interfaces-and-stability"
+    title:
+      en: "Electrolyte Interfaces and Stability"
+      zh: "电解液界面与稳定性"
+    description:
+      en: "High-voltage stability, SEI chemistry, solid and polymer electrolyte interfaces, and ion transport."
+      zh: "研究高电压条件下的电解液稳定性、SEI化学、固态与聚合物电解质界面以及离子输运行为。"
+    status:
+      en: "active"
+      zh: "博士阶段研究方向"
+    related_publication_ids:
+      - "zhan-2024-dual-layer-sei"
+      - "yang-2026-interphase-activators"
+      - "zhai-2026-coulometric-screening"
+      - "long-2026-deep-eutectic-interlayer"
+      - "ge-2021-green-polymer-electrolyte"
+      - "liu-2020-waterborne-polyurethane"

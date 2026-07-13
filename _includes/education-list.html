@@ -1,0 +1,20 @@
+{% assign profile = site.data.profile %}
+<ol class="education-list">
+  {% for education in profile.education %}
+    {% case education.id %}
+      {% when 'bit-phd-materials' %}
+        {% if include.lang == 'zh' %}{% assign period = '2024年9月至今' %}{% else %}{% assign period = 'Sep 2024–Present' %}{% endif %}
+      {% when 'bit-ms-materials' %}
+        {% if include.lang == 'zh' %}{% assign period = '2021年9月–2024年6月' %}{% else %}{% assign period = 'Sep 2021–Jun 2024' %}{% endif %}
+      {% when 'bit-beng-polymer-materials' %}
+        {% if include.lang == 'zh' %}{% assign period = '2017年9月–2021年6月' %}{% else %}{% assign period = 'Sep 2017–Jun 2021' %}{% endif %}
+    {% endcase %}
+    <li class="education-entry">
+      <div>
+        <h3>{{ education.degree[include.lang] }}</h3>
+        <p>{{ education.institution[include.lang] }}</p>
+      </div>
+      <p class="education-date">{{ period }}</p>
+    </li>
+  {% endfor %}
+</ol>

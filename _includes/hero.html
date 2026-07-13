@@ -1,0 +1,13 @@
+{% assign profile = site.data.profile %}
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="eyebrow">{{ profile.role[include.lang] }} · {{ profile.institution[include.lang] }}</p>
+    <h1 id="hero-title">{{ profile.name[include.lang] }}</h1>
+    <p class="hero-headline">{{ profile.headline[include.lang] }}</p>
+    <p class="hero-biography">{{ profile.biography[include.lang] }}</p>
+    {% include profile-links.html lang=include.lang %}
+  </div>
+  <figure class="hero-portrait">
+    <img src="{{ '/images/yu-zhan-illustration.webp' | relative_url }}" width="427" height="640" alt="{% if include.lang == 'zh' %}湛煜的学术主页插画{% else %}Academic profile illustration of Yu Zhan{% endif %}">
+  </figure>
+</section>

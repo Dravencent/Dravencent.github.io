@@ -1,0 +1,5 @@
+<span class="author-list">
+  {% for author in include.authors %}
+    <span data-author="{{ author }}">{% if author == 'Yu Zhan' %}<strong>Yu Zhan</strong>{% else %}{{ author }}{% endif %}</span>{% unless forloop.last %}{% if forloop.rindex == 2 %}, and {% else %}, {% endif %}{% endunless %}
+  {% endfor %}
+</span>

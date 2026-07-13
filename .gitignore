@@ -1,16 +1,15 @@
-# Ignore the contents of the _site directory and other cache directories
+# Ignore generated sites, caches, and project-local toolchains
 _site/
 .sass-cache/
+.local-tools/
+.bundle/
+.test-output/
 
 # Ignore the directory for local files during development
 local/
 
-# Ignore the Gemfile that is generated
-Gemfile.lock
-
-# Ingore files created by npm
-node_modules
-package-lock.json
+# Ignore files created by npm
+node_modules/
 
 # Ignore local Superpowers brainstorming screens and runtime dependencies
 .superpowers/

@@ -1,0 +1,25 @@
+{% assign profile = site.data.profile %}
+<div class="research-grid research-grid--{{ include.mode }}">
+  {% for direction in profile.research_directions %}
+    <article class="research-card" data-research-id="{{ direction.id }}">
+      <h3>{{ direction.title[include.lang] }}</h3>
+      {% if direction.id == 'novel-lithium-salt-design' and direction.status.en == 'ongoing' %}
+        <p class="status-label">{% if include.lang == 'zh' %}持续开展{% else %}Ongoing direction{% endif %}</p>
+      {% endif %}
+      <p>{{ direction.description[include.lang] }}</p>
+      {% if include.mode == 'expanded' and direction.related_publication_ids.size > 0 %}
+        <div class="related-work">
+          <h4>{% if include.lang == 'zh' %}相关论文{% else %}Related publications{% endif %}</h4>
+          <ul>
+            {% for related_id in direction.related_publication_ids %}
+              {% assign related = site.data.publications | where: 'id', related_id | first %}
+              {% if related %}
+                <li><a href="https://doi.org/{{ related.doi }}">{{ related.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>

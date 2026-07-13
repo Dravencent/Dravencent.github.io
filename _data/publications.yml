@@ -1,0 +1,138 @@
+- id: "zhan-2026-ai-high-voltage-electrolytes"
+  title: "AI for battery-accelerated discovery of high-voltage electrolytes for advanced lithium batteries"
+  authors:
+    - "Yu Zhan"
+    - "Nan Chen"
+    - "Li Li"
+    - "Feng Wu"
+    - "Renjie Chen"
+  journal: "Chemical Society Reviews"
+  year: 2026
+  doi: "10.1039/D4CS01250J"
+  selected: true
+  first_author: true
+- id: "zhan-2024-dual-layer-sei"
+  title: "Enhanced performance in lithium metal batteries: A dual-layer solid electrolyte interphase strategy via perfluoropolyether derivative additive"
+  authors:
+    - "Yu Zhan"
+    - "Pengfei Zhai"
+    - "Tinglu Song"
+    - "Wen Yang"
+    - "Yuchuan Li"
+  journal: "Chemical Engineering Journal"
+  year: 2024
+  volume: "491"
+  article_number: "151974"
+  doi: "10.1016/j.cej.2024.151974"
+  selected: true
+  first_author: true
+- id: "yang-2026-interphase-activators"
+  title: "Interphase activators for continuous Li+ transport in garnet-polymer composite solid electrolytes at room temperature"
+  authors:
+    - "Binbin Yang"
+    - "Nan Chen"
+    - "Yu Zhan"
+    - "Jun Wei"
+    - "Liyuan Zhao"
+    - "Ningning Wu"
+    - "Yusheng Ye"
+    - "Dingguo Xia"
+    - "Feng Wu"
+    - "Renjie Chen"
+  journal: "Science Bulletin"
+  year: 2026
+  doi: "10.1016/j.scib.2026.06.039"
+  selected: true
+  first_author: false
+- id: "zhai-2026-coulometric-screening"
+  title: "Screening additive for stable solid electrolyte interphase in polymer lithium battery by coulometric titration time analysis"
+  authors:
+    - "Pengfei Zhai"
+    - "Yu Zhan"
+    - "Zidan Cao"
+    - "Heng Mao"
+  journal: "Journal of Colloid and Interface Science"
+  year: 2026
+  volume: "716"
+  article_number: "140359"
+  doi: "10.1016/j.jcis.2026.140359"
+  selected: true
+  first_author: false
+- id: "long-2026-deep-eutectic-interlayer"
+  title: "Deep Eutectic Interlayer Design for Stability Enhancement in LLZTO Solid-State Lithium Batteries"
+  authors:
+    - "Sihong Long"
+    - "Boshun Gui"
+    - "Chengjie Li"
+    - "Binbin Yang"
+    - "Lipu Sun"
+    - "Yu Zhan"
+    - "Chuhuai Huang"
+    - "Jianing Tian"
+    - "Feng Wu"
+    - "Nan Chen"
+    - "Renjie Chen"
+  journal: "Advanced Functional Materials"
+  year: 2026
+  volume: "36"
+  issue: "8"
+  article_number: "e13024"
+  doi: "10.1002/adfm.202513024"
+  selected: false
+  first_author: false
+- id: "chen-2025-nicotinamide-zinc-air"
+  title: "Nicotinamide Solid Cosolvent Enhanced Two-Electron Zinc Peroxide Chemistry for Stable Neutral Zinc-Air Batteries"
+  authors:
+    - "Nuo Chen"
+    - "Jingning Lai"
+    - "Fengling Zhang"
+    - "Wen Sun"
+    - "Bohua Li"
+    - "Lipu Sun"
+    - "Yu Zhan"
+    - "Jixiang Wang"
+    - "Nan Chen"
+    - "Li Li"
+    - "Feng Wu"
+    - "Renjie Chen"
+  journal: "Nano Letters"
+  year: 2025
+  volume: "25"
+  issue: "27"
+  pages: "10770-10777"
+  doi: "10.1021/acs.nanolett.5c01562"
+  selected: false
+  first_author: false
+- id: "ge-2021-green-polymer-electrolyte"
+  title: "Preparation and properties of a novel green solid polymer electrolyte for all-solid-state lithium battery"
+  authors:
+    - "Zhen Ge"
+    - "Xiaoli Liu"
+    - "Xiaobin Zou"
+    - "Yu Zhan"
+    - "Yunjun Luo"
+  journal: "Journal of Applied Polymer Science"
+  year: 2021
+  volume: "138"
+  issue: "37"
+  article_number: "50945"
+  doi: "10.1002/app.50945"
+  selected: false
+  first_author: false
+- id: "liu-2020-waterborne-polyurethane"
+  title: "A novel polymer electrolyte matrix incorporating ionic liquid into waterborne polyurethane for lithium-ion battery"
+  authors:
+    - "Xiaoli Liu"
+    - "Yu Zhan"
+    - "Chenying Zhao"
+    - "Yuefeng Su"
+    - "Zhen Ge"
+    - "Yunjun Luo"
+  journal: "Polymers"
+  year: 2020
+  volume: "12"
+  issue: "7"
+  article_number: "1513"
+  doi: "10.3390/polym12071513"
+  selected: false
+  first_author: false

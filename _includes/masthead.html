@@ -1,26 +1,35 @@
-{% include base_path %}
-
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+{% if page.lang == 'zh' %}
+  {% assign menu = site.data.navigation.main_zh %}
+  {% assign brand_url = '/zh/' %}
+  {% assign brand_label = '湛煜' %}
+  {% assign menu_label = '导航菜单' %}
+{% else %}
+  {% assign menu = site.data.navigation.main_en %}
+  {% assign brand_url = '/' %}
+  {% assign brand_label = 'Yu Zhan' %}
+  {% assign menu_label = 'Navigation menu' %}
+{% endif %}
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-brand" href="{{ brand_url | relative_url }}" aria-label="{{ brand_label }} home">{{ brand_label }}</a>
+    <nav class="desktop-nav" aria-label="{{ menu_label }}">
+      <ul>
+        {% for item in menu %}
+          <li><a href="{{ item.url | relative_url }}"{% if page.permalink == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+      {% include language-switch.html %}
+    </nav>
+    <details class="mobile-nav">
+      <summary>{{ menu_label }}</summary>
+      <nav aria-label="{{ menu_label }}">
+        <ul>
+          {% for item in menu %}
+            <li><a href="{{ item.url | relative_url }}"{% if page.permalink == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
           {% endfor %}
-          <li id="theme-toggle" class="masthead__menu-item persist tail">
-            <a><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
-          </li>
         </ul>
-        <ul class="hidden-links hidden"></ul>
+        {% include language-switch.html %}
       </nav>
-    </div>
+    </details>
   </div>
-</div>
+</header>

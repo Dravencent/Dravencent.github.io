@@ -1,0 +1,7 @@
+{% if page.counterpart %}
+  {% if page.lang == 'zh' %}
+    <a class="language-switch" href="{{ page.counterpart | relative_url }}" hreflang="en" lang="en" aria-label="Switch to the English version of this page">English</a>
+  {% else %}
+    <a class="language-switch" href="{{ page.counterpart | relative_url }}" hreflang="zh-Hans" lang="zh-Hans" aria-label="切换到本页中文版本">中文</a>
+  {% endif %}
+{% endif %}
