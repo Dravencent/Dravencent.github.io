@@ -14,3 +14,4 @@ package-lock.json
 
 # Ignore local Superpowers brainstorming screens and runtime dependencies
 .superpowers/
+.worktrees/
